@@ -2592,8 +2592,8 @@ define([
                 loadUniversal(Team, 'team', waitFor, clientId); // XXX load teams offline?
                 loadUniversal(History, 'history', waitFor);
             }).nThen(function () {
-            var requestLogin = function () {
-                broadcast([], "REQUEST_LOGIN");
+                var requestLogin = function () {
+                    broadcast([], "REQUEST_LOGIN");
                 };
 
                 if (store.loggedIn) {

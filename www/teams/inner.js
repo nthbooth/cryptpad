@@ -343,10 +343,11 @@ define([
             APP.drive = drive;
             driveAPP.refresh = drive.refresh;
 
-            if (APP.teams[id] && APP.teams[id].offline) {
-                setEditable(false);
-                drive.refresh();
+            console.error(APP.teams[id], APP.teams[id].offline);
+            if (APP.teams[id] && !APP.teams[id].offline) {
+                setEditable(true);
             }
+            drive.refresh();
         });
     };
 
