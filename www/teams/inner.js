@@ -343,7 +343,6 @@ define([
             APP.drive = drive;
             driveAPP.refresh = drive.refresh;
 
-            console.error(APP.teams[id], APP.teams[id].offline);
             if (APP.teams[id] && !APP.teams[id].offline) {
                 setEditable(true);
             }
