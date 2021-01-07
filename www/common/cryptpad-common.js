@@ -2158,6 +2158,7 @@ define([
                 anonHash: LocalStore.getFSHash(),
                 localToken: tryParsing(localStorage.getItem(Constants.tokenKey)), // TODO move this to LocalStore ?
                 language: common.getLanguage(),
+                cache: rdyCfg.cache,
                 driveEvents: true //rdyCfg.driveEvents // Boolean
             };
 
