@@ -21,7 +21,7 @@
     "netflux-websocket": "^0.1.20",
     "nthen": "0.1.8",
     "pull-stream": "^3.6.1",
-    "saferphore": "0.0.1",
+    "saferphore": "0.0.2",
     "sortify": "^1.0.4",
     "stream-to-pull-stream": "^1.7.2",
     "tweetnacl": "~0.12.2",
