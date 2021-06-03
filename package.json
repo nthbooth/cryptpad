@@ -19,7 +19,7 @@
     "fs-extra": "^7.0.0",
     "get-folder-size": "^2.0.1",
     "netflux-websocket": "^0.1.20",
-    "nthen": "0.1.8",
+    "nthen": "0.2.1",
     "pull-stream": "^3.6.1",
     "saferphore": "0.0.1",
     "sortify": "^1.0.4",
